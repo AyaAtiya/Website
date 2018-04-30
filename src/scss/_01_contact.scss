@@ -1,0 +1,33 @@
+.home, .Contact_1{
+    .contact{
+        padding: $padding;
+        padding-bottom: 130px;
+    .container{
+        .row{
+            .contacts{
+                h6{
+                    font-family: $fontKaushan;
+                }
+                h3{
+                    font-family: $fontRaleway;
+                }
+                hr{
+                    @extend %hr;
+                }
+                p{
+                    @extend %p; 
+                }
+            }//contact
+        }//row
+        .row{
+            i{
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+            p{
+                font-family:$fontLato;
+            }
+        }//row
+     }//container
+    }//contact
+}//home

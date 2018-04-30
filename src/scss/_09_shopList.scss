@@ -1,0 +1,92 @@
+.Shop_list{
+    .cards{
+        .container{
+            .row{
+                div{
+                    .row{
+                        .bigCard{
+                            .row{
+                                div{
+                                  .card{
+                                      border: none;
+                                      .sale{
+                                          background-color: $maincolor;
+                                          padding: 7px 30px;
+                                          color: $black;
+                                          position: absolute;
+                                          z-index: 2;
+                                          top: 30px;
+                                          font-family: $fontRaleway;
+
+                                      }
+                                    img{
+                                        position: relative;
+                                    }
+                                }//card 
+                                }//div 
+                                div{
+                                    .card-body{
+                                    padding: 0px;
+                                        .icons{
+                                            .x{
+                                                color: $gray;
+                                                font-size: 14px;
+                                            }
+                                        }//icons
+                                    h5{
+                                        font-family: $fontRaleway;
+                                        color: $black;
+                                        font-size: 19px;
+                                    }//h5
+                                    p{
+                                        font-family:$fontLato;
+                                        .text-muted{
+                                            color: $maincolor !important;
+                                            font-family:$fontLato;
+                                            font-weight: bolder;
+                                        }
+                                    }
+                                        .morepara{
+                                            font-family:$fontLato;
+                                            color: $gray;
+                                        }
+                                        .group{
+                                                .btnX{
+                                                padding: 20px 60px;
+                                                background-color: $maincolor;
+                                                border: none;
+                                                color: $black;
+                                                font-family: $fontRaleway;
+                                                font-size: 13px;
+                                                border-radius:0px;
+                                            }
+                                            
+                                        @media(max-width:768px){
+                                          .btnX{
+                                             margin-bottom: 20px;
+                                            }
+                                        }//MEDIA
+                                            
+                                            .y{
+                                            padding: 18px;
+                                            border: 1px solid $grayIn;
+                                            background-color: $grayIn;
+                                            color: $black;
+                                            }
+                                        @media(max-width:768px){
+                                          .y{
+                                             margin-bottom: 20px;
+                                            }
+                                        }//MEDIA
+                                            
+                                        }//group
+                                }//card-bodyr
+                                }//div
+                            }//row
+                        }//bigCard
+                    }//row
+                }//div col-9
+            }//row
+        }//container
+    }//cards
+}//Shop_list

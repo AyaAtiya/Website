@@ -1,0 +1,101 @@
+.home{
+    .create{
+        background-image: url(../../dist/image/home/section-bg-19.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 1271px;
+    .container{
+        .row{
+            .data{
+               padding: $padding;
+                    h6{
+ 
+                        font-family:$fontKaushan;
+                        color: $black;
+                    }
+                    h3{
+                        font-family: $fontRaleway;
+                        color: $black;
+                    }
+                    hr{
+                        @extend %hr;
+                        margin: 0 0 10px 0px;
+                    }
+                    p{
+                        @extend %p; 
+                    }
+                .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+                        color: $black;
+                        background-color: transparent;
+                        font-family: $fontLato;
+                        font-size: 13px;
+                        padding: 0px;
+                }
+                a {
+                    color: $gray;
+                    font-family: $fontLato;
+                    font-size: 13px;
+                    padding: 0px;
+                }
+                div{
+                    @extend %p; 
+                    padding-top: 5px;
+                    padding-bottom: 15px;
+                    
+                }
+                #accordion{
+                    .card{
+                        background-color: transparent;
+                         background-clip: none;
+                         border: none; 
+                        border-radius: none;
+                        padding: 0px;
+                        .card-header{
+                            background-color: transparent;
+                            padding: 0px;
+                            button{
+                                color: $gray;
+                                font-family: $fontLato;
+                                border: none;
+                                span{
+                                    
+                                  height: 35px;
+                                  width: 35px;
+                                  border-radius: 50%;
+                                  display: inline-block;
+                                  border: 1px solid $gray;
+                                    margin-right: 5px;
+                                    text-align: center;
+                                    i{
+                                        margin: 8px 5px 5px 5px;
+                                        font-size:15px; 
+                                    
+                                     }
+                                }
+                            }
+                        }//card_header
+                        div{
+                            .card-body{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                .btn2:hover{
+                       @extend %btnHover;
+                    }
+                    
+                }//data
+            }//row
+        .moreCard{
+            .card-deck{
+                background-color: aqua;
+                .card{
+                border: 4px solid rgba(48, 50, 51, 0.125); 
+                border-radius: none; 
+                }
+            }
+        }//moreCard
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.About_Us{
+    .aboutUs{
+         padding: $padding;
+        padding-bottom: 130px;
+    .container{
+        .row{
+            .data{
+                h6{
+                    font-family: $fontKaushan;
+                    color: $black;
+                }
+                h3{
+                    font-family: $fontRaleway;
+                    color: $black;
+                }
+                hr{
+                    @extend %hr;
+                    margin: 0 0 10px 0px;
+                }
+                p{
+                    @extend %p; 
+                }
+                .presenatge{
+                    float: left;
+                    display: block;
+                }
+                .progress{
+                }
+                .row{
+                    div{
+                        .light-grey{
+                            background-color: #e6e7e8;
+                            border-radius: 15px;
+                            height: 8px;
+                            .bluex{
+                                background-color: $maincolor;
+                                border-radius: 15px;
+                                height: 8px;
+                                
+                            }
+                        }
+                    }//div
+                }//row
+            }//data
+        }
+    }
+}
+}

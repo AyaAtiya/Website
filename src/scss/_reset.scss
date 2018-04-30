@@ -1,0 +1,44 @@
+body{
+    font-family: $fontLato;
+}
+%p{
+    font-family: $fontLato;
+    font-size: 11px;
+    line-height: 2;
+    color: $gray;
+}
+.btn2{
+        padding: 20px 60px;
+        background-color: white;
+        border: none;
+        box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); 
+        font-family: $fontRaleway;
+        font-size: 13px;
+        color: black;
+        border-radius:0px;
+    }
+%btnHover{
+     background-color: $maincolor;
+     color: white;
+}
+%hr{
+    width: 50px;
+    border: 1px solid $black;
+   }
+%imgCover{
+    background-size: cover;
+    width: 100%;
+//    width: 318px;
+//    height: 286.66px;
+}
+%imgCoverAbou{
+    background-size: cover;
+    width: 320px;
+    height:400px;
+}
+
+%hrmaincolor{
+    width: 50px;
+    border: 1px solid $maincolor;
+    margin: 0 0 10px 0px;
+}

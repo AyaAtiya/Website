@@ -1,0 +1,32 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "fonts";
+@import "reset";
+
+//............header & footer .............
+@import "underHeader";
+@import "footer&header";
+
+@import "01_header";
+@import "01_whatWeDo";
+@import "01_creativity";
+@import "01_map";
+@import "01_portfolio";
+@import "01_Excellent";
+@import "01_create";
+@import "01_news";
+@import "01_Testimonials";
+@import "01_contact";
+@import "02_galary";
+@import "03_BlogSingle";
+@import "04_porto";
+@import "05_Pot-single";
+@import "06_Creative2";
+@import "06_aboutUs";
+@import "07_input";
+@import "08_shopGrid";
+@import "09_shopList";
+@import "10_shopItem";
+@import "11_cart";
+
+

@@ -1,0 +1,112 @@
+.Portfolio_Single{
+    .port{
+        .container{
+            .row{
+                div{
+                    .card{
+                        border: none;
+                        img{
+                            height: 600px;
+                        }
+                        .row{
+                            div{
+                                .card-body{
+                                    h5{
+                                        font-family: $fontRaleway;
+                                        color: $black;
+                                    }
+                                    p{
+                                        @extend %p;
+                                    }
+                                    p{
+                                        span{
+                                            font-family:$fontRaleway; 
+                                            font-size: 20px;
+                                            color: $black;
+                                        }
+                                        i{
+                                            color: $grayIn;
+                                            font-size: 20px;
+                                        }
+                                        i:hover{
+                                            color: $black;
+                                        }
+                                    }
+                                }
+                            }//div
+                            div{
+                                h3{
+                                   font-family: $fontRaleway;
+                                    font-size: 15px;
+                                    color: $black;
+                                }
+                                p{
+                                    @extend %p;
+                                }
+                            }//div
+                        }//row
+                    }//card
+                }//div
+            }//row
+            
+            .parent{
+                border-bottom: 1px solid $grayIn;
+                border-top: 1px solid $grayIn;
+                padding: 25px 10px 10px 10px;
+             div{
+                                ul{
+                                    .preBtn{
+                                        border: none;
+                                        .page-link{
+                                        background-color: $maincolor;
+                                        color: $black;
+                                        border: none;
+                                        padding: 10px 20px;
+                                        border-radius: 0px;
+                                        margin-right: 10px;
+                                            span{
+                                                i{
+                                                margin-right:10px;
+                                                }
+                                            }
+                                        }//page-link
+                                    }//li  
+                                }//ul
+                                
+                            }//div
+                            div{
+                                ul{
+                                    .second{
+                                        .page-link{
+                                            color: $grayIn;
+                                            border: none;
+                                        }
+                                    }//second
+                                }//ul
+                            }//div
+                            div{
+                                ul{
+                                    .nextBtn{
+                                        .page-link{
+                                            background-color: white;
+                                            color: $black;
+                                            padding: 10px 20px;
+                                            border-radius: 0px;
+                                            margin-left: 10px;
+                                                
+                                            }//page-link
+                                        }//nextBtn
+                                    }//ul  
+                                }//div   
+            }//parent
+          
+            h4{
+                font-family: $fontRaleway;
+            }
+            hr{
+                @extend %hrmaincolor;
+            }
+            
+        }//container
+    }//port
+}//Portfolio_Single

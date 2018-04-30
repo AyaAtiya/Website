@@ -1,0 +1,141 @@
+.Cart{
+    .addCart{
+        .container{
+            .firstRow{
+                background-color: $grayIn;
+                padding: 10px;
+                div{
+                    p{
+                        font-family: $fontRaleway;
+                        color: $black;
+                        margin: 0px;
+                    }
+                }//div 
+                @media(max-width:576px){
+                        .carts{
+                            display: none;
+                        }
+                }//media
+            }//row
+            .row{
+                div{
+                    ul{
+                        li{
+                            .media-body{
+                                h5{
+                                   font-family: $fontRaleway;
+                                    color: $black; 
+                                }
+                                p{
+                                  font-family: $fontLato;
+                                    color: $gray;
+                                }
+                            }//media-body 
+                        }//li
+                    }//ul
+                }//div
+                @media(max-width:576px){
+                        .carts{
+                            display: none;
+                        }
+                }//media
+                div{
+                   .inputOne{
+                      width: 40px;
+                      padding: 5px 10px;
+                  } 
+                }//div
+                div{
+                    .parcode{
+                        font-family: $fontLato;
+                        color: $gray;
+                    }
+                }//div
+                div{
+                    .dolarMo{
+                        font-family: $fontLato;
+                        color: $black;
+                        display: inline;
+                    } 
+                    i{
+                        float: right;
+                    }
+                }//div
+            }//row
+            .secondRow{
+                div{
+                    .input-group{
+                        .input-group-prepend{
+                            .input-group-text{
+                                    background-color: $maincolor;
+                                    color: $black;
+                                    border: none;
+                                    border-radius: 0px;
+                                font-size: 13px;
+                                padding: 8px 20px;
+                            }//input-group-text
+                        }//input-group-prepend
+                        .inputType{
+                            border: 1px solid $grayIn; 
+                        }//form-control
+                    }//input-group
+                }//div
+                .btn2:hover{
+                            @extend %btnHover;
+                        }
+            }//secondRow
+            .lastRow{
+                div{
+                    h4{
+                       font-family: $fontRaleway; 
+                    }
+                 .hr2{
+                    @extend %hrmaincolor;
+                }
+                    label{
+                        font-family: $fontRaleway;
+                        color: $black;
+                        display: block;
+                    }
+                    .custom-select{
+                        border: 1px solid $grayIn;
+                        font-family: $fontLato;
+                    }
+                    input{
+                        width: 100%;
+                        border: 1px solid $grayIn;
+                        padding: 8px 15px;
+                    }
+                }//div
+                div{
+                    p{
+                        color: $black;
+                        font-family: $fontRaleway;
+                        span{
+                            float: right;
+                            font-family: $fontLato;
+                            color: $gray;
+                        }
+                        .span1{
+                            color: $black;
+                        }
+                        .span2{
+                            color: $maincolor;
+                            font-weight: bold;
+                        }
+                    }
+                    
+                    .btnX{
+                        padding: 10px 40px;
+                        background-color: $maincolor;
+                        border: none;
+                        color: $black;
+                        font-family: $fontRaleway;
+                        font-size: 13px;
+                        border-radius:0px;
+                    }
+                }//div
+            }//lastRow
+        }//container
+    }//addCart
+}//Cart

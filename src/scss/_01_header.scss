@@ -1,0 +1,64 @@
+.home{
+    header{
+        background-image: url(../../dist/image/home/section-bg-1.jpg);
+        background-size: cover;
+        height: 100vh;
+        .container{
+            .row{
+                
+                .data{
+                     h6{
+                     font-family: $fontKaushan;
+                     color: $black;
+                    }
+                    h1{
+                     font-family: $fontRaleway; 
+                     font-size: 75px;
+                     color: $black;
+                    }
+                    @media(max-width:768px){
+                        h1{
+                            font-size: 45px;
+                        }
+                    }//medi
+                     @media(max-width:576px){
+                        h1{
+                            font-size: 30px;
+                        }
+                    }//media
+                    
+                    p{
+                    @extend %p;
+                        margin-bottom: 30px;
+                    }
+                    @media(max-width:768px){
+                        p{
+                            margin-bottom: 0px;
+                        }
+                    }//media
+                     @media(max-width:576px){
+                        p{
+                            font-size: 6px;
+                            padding-bottom: 5px;
+                        }
+                    }//media
+                    
+                    .btn:hover{
+                       @extend %btnHover;
+                    }
+                }//data
+            }//container
+        }//row
+    }//header
+    @media(max-width:768px){
+        header{
+            height: 50vh;
+        }
+    }
+      @media(max-width:576px){
+        header{
+            height: 55vh;
+        }
+    }
+    
+}//home

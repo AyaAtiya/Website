@@ -1,0 +1,128 @@
+header{
+    nav{
+        div{
+            ul{
+                .dropdown{
+                    .dropdown-toggle{
+                        background-color: $maincolor;
+//                        padding: 2px ;
+                    }
+                    .dropdown-toggle::after{
+                        display: none;
+                    }
+                    .btn-group{}
+                    .dropdown-menu{
+                        min-width: 23rem;
+                        .row{
+                            div{
+                                ul{
+                                    padding: 10px 15px;
+                                    li{
+                                        .media-body{
+                                            h5{
+                                                display: inline;
+                                                font-size: 15px;
+                                                font-family: $fontRaleway;
+                                                color: $gray;
+                                            }//h5
+                                            i{
+                                                float: right;
+                                                color: $gray;
+                                            }//i
+                                            p{
+                                                font-family: $fontLato;
+                                                color: $black;
+                                                font-size: 15px;
+                                            }//p
+                                        }
+                                    }
+                                }
+                            }
+                        }//row
+                        p{
+                            padding: 10px 15px;
+                            font-family: $fontLato;
+                            color: $gray;
+                            font-size: 15px;
+                            span{
+                                font-family: $fontLato;
+                                color: $black;
+                                font-size: 15px;
+                                font-weight: bold;
+                                float: right;
+                            }
+                        }//p
+                        .btns{
+                            padding: 10px 15px;
+                        button{
+                            padding: 20px 40px;
+                            background-color: white;
+                            border: none;
+                            box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); 
+                            font-family: $fontRaleway;
+                            font-size: 13px;
+                            color: black;
+                            border-radius:0px;
+                            display: inline;
+                        }
+                            .bycolor{
+                                 background-color: $maincolor;
+                            }
+                        }
+                    }//dropdown-menu
+                }//dropdown
+            }//ul
+        }//div
+    }//nav
+}//header
+
+
+.footer{
+    background-color: $black;
+    color: white;
+    padding: $padding;
+    padding-bottom: 130px;
+    .container{
+        .row{
+            .data{
+                h4{
+                   font-family: $fontRaleway; 
+                }
+                hr{
+                   @extend %hrmaincolor; 
+                    margin-bottom: 40px;
+                }
+                p{
+                    font-family: $fontLato;
+                    font-size: 13px;
+                    i{
+                    font-size: 10px;
+                        margin-right: 10px;
+                    }
+                }
+                ul{
+                    li{
+                        .media-body{
+                            h5{
+                                font-family: $fontKaushan;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+                
+            }//data
+        }//row
+    }//container
+}//footer
+.copyRight{
+    background-color: #232424;
+    .row{
+        padding: 0px;
+        margin: 0px;
+        div{
+            color: $gray;
+            padding: 20px 0 ;
+        }
+    }
+}

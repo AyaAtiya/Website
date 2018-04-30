@@ -1,0 +1,114 @@
+.home,.About_Us{
+    .portfolio{
+//         padding: $padding;
+    .container{
+        .row{
+            .whatDo{
+                h6{
+                    font-family: $fontKaushan;
+                }
+                h3{
+                   font-family: $fontRaleway;
+                }
+                hr{
+                    @extend %hr;
+                }
+                p{
+                    @extend %p; 
+                }
+            }//whatDo
+        }//row
+    }//container
+    .row{
+        div{
+            padding: 0px;
+            .img1{
+                background-image: url(../../dist/image/home/img-1.jpg);
+                @extend %imgCover;
+                width: 100%
+                
+                }
+            .img2{
+                background-image: url(../../dist/image/home/img-2.jpg);
+                @extend %imgCover; 
+                width: 100%
+                }
+            .img3{
+                background-image: url(../../dist/image/home/img-3.jpg);
+                @extend %imgCover;
+                width: 100%
+                }
+            .img4{
+                background-image: url(../../dist/image/home/img-4.jpg);
+                @extend %imgCover;
+                width: 100%
+                }
+            
+            .x{
+                display: table;
+                div{
+                        height:286.66px;
+                        display: table-cell;
+                        vertical-align: middle;
+                        background-color: rgba(255,255,255,0);
+                    p{
+                        color: transparent;
+                    }
+                    h6{ 
+                        color: transparent;
+                    }
+                    i{
+                        color: transparent;
+                    }
+                 }//div
+                div:hover{
+                        background-color: rgba(255,255,255,0.8);
+                    p{
+                       @extend %p;
+                    }
+                    h6{
+                        font-family:$fontRaleway; 
+                        color: $black;
+                    }
+                    i{
+                        color: $black;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                 }//div
+            }//x
+            
+            }
+        }
+        .bgOrange{
+            background-color: $maincolor;
+            .icons{
+                i{
+                    font-size: 60px;
+                    position: absolute;
+                    left: 75px;
+                    z-index: 1;
+                    opacity: 0.05;
+                    color: $black; 
+                }
+                @media(max-width:768px){
+                    i{
+                        left: 35px;
+                    }
+                }//media
+                 @media(max-width:576px){
+                    i{
+                        left: 155px;
+                    }
+                }//media
+                h6,h3{
+                    font-family: $fontRaleway;
+                }
+                h6{
+                    font-size: 11px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }//portfolio
+}//home

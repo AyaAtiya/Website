@@ -1,0 +1,37 @@
+.home{
+    .Excellent{
+         padding: $padding;
+    .container{
+        .row{
+            .data{
+                h6{
+                    font-family: $fontKaushan;
+                    color: $black;
+                }
+                h3{
+                    font-family: $fontRaleway;
+                    color: $black;
+                }
+                hr{
+                    @extend %hr;
+                    margin: 0 0 10px 0px;
+                }
+                p{
+                    @extend %p; 
+                }
+                .doit{
+                    font-size: 13px;
+                    i{
+                        color: $maincolor;
+                        padding-right: 15px;
+                        font-size: 8px;
+                    }
+                }
+                .btn:hover{
+                       @extend %btnHover;
+                    }
+            }//data
+        }
+    }
+}
+}

@@ -1,0 +1,224 @@
+.Shop_Item{
+    .cardOrder{
+        .container{
+            .row{
+                div{
+                  .card{
+                      border: none;
+                    }//card
+                }//div
+                div{
+                      .card-body{
+                    padding: 0px;
+                    .head{
+                        font-family: $fontRaleway;
+                        color: $black;
+                        font-size: 25px;
+                        span{
+                            i{
+                                float: right;
+                                color: $gray;
+                                font-size: 15px;
+                            }
+                            i:hover{
+                                color: $maincolor;
+                            }
+                        }//span
+                    }//h5
+                    .para{
+                        font-family:$fontLato;
+                        color: $gray;
+                        .text-muted{
+                            color: $gray !important;
+                            font-family:$fontLato;
+                            font-weight: bolder;
+                        }
+                    }
+                  .morepara{
+                      color: $gray !important;
+                    font-family:$fontLato;
+                  }
+                  .Material{
+                      font-family:$fontLato;
+                      color: $gray;
+                      span{
+                          color: $black;
+                          font-size: 20px;
+                          font-family: $fontRaleway;
+                      }
+                  }
+                  .dolar{
+                      font-family:$fontLato;
+                      span{
+                         font-family: $fontRaleway;
+                          font-size: 30px;
+                          color: $maincolor;
+                      }   
+                  }
+                  form{
+                      display: inline;
+                      margin: 0px;
+                      .form-group{
+                          display: inline;
+                          margin: 0px;
+                          .form-control{
+                              width: 150px;
+                              margin: 0px;
+                          }
+                      }        
+                  }//form
+                  label{
+
+                  }
+                  input{
+                      width: 40px;
+                      padding: 5px 10px;
+                  }
+                          
+                 .group{
+                        .btnX{
+                        padding: 20px 60px;
+                        background-color: $maincolor;
+                        border: none;
+                        color: $black;
+                        font-family: $fontRaleway;
+                        font-size: 13px;
+                        border-radius:0px;
+                    }
+                @media(max-width:768px){
+                .btnX{
+                     display: block;
+                    }
+                }//MEDIA
+                     
+                    .y{
+                    padding: 18px;
+                    border: 1px solid $grayIn;
+                    background-color: $grayIn;
+                    color: $black;
+                    }
+                 @media(max-width:768px){
+                .y{
+                     margin-top: 20px;
+                    }
+                }//MEDIa
+                     
+                     
+                }//group
+                  .linep{
+                      font-family:$fontLato;
+                      color: $grayIn;
+                      font-size: 14px;
+                  }        
+                }//card-body   
+                }//div
+                div{
+                    .Categories{
+                        font-family:$fontLato;
+                        color: $gray;
+                        padding-top: 30px;
+                  span{
+                      color: $black;
+                      font-size: 20px;
+                      font-family: $fontRaleway;
+                        }
+                    }//Categories
+                    
+                     @media(max-width:768px){
+                  .Categories{
+                     padding-top: 0px;
+                    }
+                }//MEDIA
+                    
+                    
+                 
+                    .share{
+                        font-family:$fontLato;
+                        color: $black;
+                  span{
+                      font-size: 20px;
+                      font-family: $fontRaleway;
+                        }
+                        i{
+                            border: 1px solid $grayIn;
+                            padding: 10px;
+                        }
+                    }//share
+                }//div
+            }//row
+             .row{
+                    div{
+                         .btnX1{
+                        padding: 10px 20px;
+                        background-color: $maincolor;
+                        border: none;
+                        color: $black;
+                        font-family: $fontRaleway;
+                        font-size: 15px;
+                        border-radius:0px;
+                        }
+                        .btnX2{
+                        padding: 10px 20px;
+                        background-color: transparent;
+                        border: 1px solid $grayIn;
+                        color: $black;
+                        font-family: $fontRaleway;
+                        font-size: 15px;
+                        border-radius:0px;
+                        }
+                    }
+                }//row
+            .row{
+                div{
+                    .data{
+                        background-color: $grayIn;
+                        padding: 40px;
+                        h5{
+                           font-family:$fontLato;
+                           color: $black; 
+                        }
+                        p{
+                          font-family:$fontLato;
+                          color: $gray; 
+                            margin: 0px;
+                        }
+                    }//data
+                }//div
+            }//row
+            
+            .row{
+                div{
+                    h4{
+                       font-family: $fontRaleway; 
+                    }
+                    .hr2{
+                      @extend %hrmaincolor;  
+                    }
+                }//div
+                 div{
+                      .card{
+                          border: none;
+                    }//card 
+                }//div 
+                div{
+                    .card-body{
+                    padding: 0px;
+                    h5{
+                        font-family: $fontRaleway;
+                        color: $gray;
+                        font-size: 15px;
+                    }//h5
+                    p{
+                        font-family:$fontLato;
+                        .text-muted{
+                            color: $black !important;
+                            font-family:$fontRaleway;
+                            font-weight: 900;
+                        }
+                    }
+                    }//card-bodyr
+                }//div
+            }//row
+        }//container
+    }//cardOrder
+}//Shop_Item

@@ -1,0 +1,44 @@
+.home{
+    .Creativity{
+        background-image: url(../../dist/image/home/section-bg-4.jpg);
+        background-size: cover;
+        padding-top: 125px;
+    .container{
+        .row{
+            .data{
+                padding-bottom: 125px;
+                h6{
+                    font-family: $fontKaushan;
+                    color: $black;
+                }
+                h3{
+                    font-family: $fontRaleway;
+                    color: $black;
+                }
+                hr{
+                    @extend %hr;
+                    margin: 0 0 10px 0px;
+                }
+                p{
+                    @extend %p; 
+                } 
+                .btn:hover{
+                       @extend %btnHover;
+                    }
+            }//data
+            div{
+                @media(max-width:576px){
+                    img{
+                        display: none;
+                    }
+                } 
+            }
+        }//row
+    }//container
+}
+    @media(max-width:768px){
+        .Creativity{
+            height: 490px;
+        }  
+    }
+}

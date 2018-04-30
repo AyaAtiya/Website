@@ -1,0 +1,57 @@
+.underHeader{
+    position: relative;
+    img{
+        width: 100%;
+    }
+    .container{
+            .blog{
+                position: absolute;
+                top: 83px;
+                 h6{
+                     font-family: $fontKaushan;
+                     color: $black;
+                }
+                @media(max-width:768px){
+                    h6{
+                     
+                        font-size: 11PX;
+                    }
+                }//MEDIA
+                
+                @media(max-width:576){
+                    h6{
+                     
+                        font-size: 4PX;
+                    }
+                }//MEDIA
+                
+                h1{
+                 font-family: $fontRaleway; 
+                 color: $black;
+                }
+                 @media(max-width:768px){
+                    h1{
+                        font-size: 20PX;
+                    }
+                }//MEDIA
+                
+                 @media(max-width:576px){
+                    h1{
+                        font-size: 15PX;
+                    }
+                }//MEDIA
+                
+                
+            }//blog
+          @media(max-width:768px){
+                     .blog{
+                     top: 50px;
+                    }
+                }//MEDIA
+         @media(max-width:576px){
+                     .blog{
+                     top: 15px;
+                    }
+                }//MEDIA
+    }//container
+}

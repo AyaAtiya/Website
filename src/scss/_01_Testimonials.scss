@@ -1,0 +1,30 @@
+.home, .About_Us{
+    .Testimonials{
+        padding: $padding;
+        padding-bottom: 100px;
+        background-image: url(../../dist/image/home/section-bg-5.jpg);
+        background-size: cover;
+    .container{
+        .row{
+            .testimonials{
+                h6{
+                    font-family: $fontKaushan;
+                }
+                h3{
+                    font-family: $fontRaleway;
+                }
+                hr{
+                    @extend %hr;
+                }
+                p{
+                    @extend %p; 
+                }
+                h4{
+                    font-family: $fontRaleway;
+                }
+            }//Testimonials
+        }//row
+
+    }//container
+    }//portfolio
+}//home

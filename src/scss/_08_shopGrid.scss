@@ -1,0 +1,282 @@
+ .Shop_Grid, .Shop_list{
+    .cards{
+        .container{
+            .row{
+                div{
+                    .row{
+                        div{
+                            .list{
+                                background-color: $grayIn;
+                                padding:10px; 
+                                p{
+                                    font-family: $fontLato;
+                                    font-size: 13px;
+                                    color: $gray;
+                                }
+                                ul{
+                                    padding: 0px;
+                                    margin: 0px;
+                                    li{
+                                        padding-right: 10px;
+                                        a{
+                                            padding: 0px;
+                                            color: $gray;
+                                        }
+                                    }
+                                }//ul
+                            }//list
+                        }//div
+                        div{
+                          .card{
+                              border: none;
+                            .overLay{
+                                position: absolute;
+                                z-index: 3;
+                                text-align: center;
+                                background-color: transparent;
+                                width: 255.98px;
+                                height: 100%;
+                                button{
+                                    display: none;
+                                }
+                                .btn2:hover{
+                                    @extend %btnHover;
+                                }
+                                @media(max-width:576px){
+                                    .btn2{
+                                        padding: 5px 10px;
+                                    }
+                                }//media
+                                 @media(max-width:768px){
+                                    .btn2{
+                                        padding: 5px 15px;
+                                    }
+                                }//media
+                                
+                            }//overlay
+                              @media(max-width:576px){
+                                  .overLay{
+                                      width: 346px;
+                                  }   
+                              }//media
+                              @media(max-width:768px){
+                                  .overLay{
+                                      width: 150px;
+                                  }   
+                              }//media
+                            .overLay:hover{
+                                background-color: rgba(255,255,255,0.5);
+                                 button{
+                                    display: inline;
+                                }
+                            }//overlay
+                              .sale{
+                                  background-color: $maincolor;
+                                  padding: 7px 30px;
+                                  color: $black;
+                                  position: absolute;
+                                  z-index: 2;
+                                  top: 30px;
+                                  font-family: $fontRaleway;
+                                      
+                              }
+                            img{
+                                position: relative;
+                            }
+
+                        }//card
+                        .card-body{
+                            padding: 0px;
+                            h5{
+                                font-family: $fontRaleway;
+                                color: $gray;
+                                font-size: 14px;
+                                span{
+                                    i{
+                                        float: right;
+                                    }
+                                    i:hover{
+                                        color: $maincolor;
+                                    }
+                                }//span
+                            }//h5
+                            p{
+                                font-family:$fontLato;
+                                .text-muted{
+                                    color: $black !important;
+                                    font-family:$fontLato;
+                                    font-weight: bolder;
+                                }
+                            }
+                        }//card-body 
+                            @media(max-width:576px){
+                                .card-body{
+                                    margin-bottom: 20px;
+                                }
+                            }
+                            
+                        }//div
+                    }//row
+                }//div
+                div{
+                    .info{
+                        .row{
+                    input[type=search]{
+                                    width: 278px;
+                                    padding: 10px;
+                                    border: 1px solid $grayIn;
+                                    font-size: 15px;
+                                    font-family: $fontLato;
+                                    i{
+                                        float: right;
+                                    }
+                                }
+                                h4{
+                                    font-family: $fontRaleway;
+                                }
+                                hr{
+                                    @extend %hrmaincolor;
+                                }
+                                ul{
+                                    li{
+                                        border-left: none;
+                                        border-right: none;
+                                        border-radius: 0px;
+                                        padding-left:  0px;
+                                        color: $black;
+                                        font-family: $fontLato
+                                    }
+                                    span{
+                                        background-color: transparent;
+                                        color: $black;
+                                        font-family: $fontLato
+                                    }
+                                }
+                                p{
+                                    color: $gray;
+                                    font-family:$fontLato; 
+                                }
+                            div{
+                                .row{
+                                    div{
+                                        .light-grey{
+                                            background-color: #e6e7e8;
+                                            height: 8px;
+                                            .bluex{
+                                                background-color: $black;
+                                                height: 8px;
+                                                
+                                                &::after{
+                                                    content: "";
+                                                    padding: 1px;
+                                                    border: 1px solid $black;
+                                                    position: relative;
+                                                    bottom: 7px;
+                                                    right: 5px;
+                                                }
+                                                &::before{
+                                                    content: "";
+                                                    padding: 1px;
+                                                    border: 1px solid $black;
+                                                     position: relative;
+                                                    bottom: 7px;
+                                                    left: 175px;
+                                                }
+                                            }//bluex
+                                            @media(max-width:768px){
+                                          .bluex{
+                                              &::before{
+                                                    left: 100px;
+                                                }
+                                            }
+                                        }//MEDIA
+                                          @media(max-width:576px){
+                                          .bluex{
+                                              &::before{
+                                                    left: 240px;
+                                                }
+                                            }
+                                        }//MEDIA
+                                        }
+                                    }
+                                }
+                                .btn2:hover{
+                                    @extend %btnHover;
+                                }       
+                            }
+                            ul{
+                                li{
+                                    i{
+                                        font-size: 8px;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+                                ul{
+                                    .media{
+                                             border-bottom: none;
+                                        .media-body{
+                                            font-family: $fontRaleway;
+                                            div{
+                                                i{
+                                                    color: $gray;
+                                                    font-size: 13px;
+                                                }
+                                            }
+                                            h5{
+                                                font-family: $fontLato;
+                                                color: $black;
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }
+                                }
+                        }//row
+                    }//info
+                }//div
+            }//big row
+            .row{
+                div{
+                    nav{
+                        ul{
+                        .page-item:first-child{
+                         .page-link{
+                             background-color: $maincolor;
+                             color: $black;
+                             padding: 10px 20px;
+                             border: none;
+                             border-radius: 0px;
+                             margin-right: 10px;
+                             span{
+                                 i{
+                                     margin-right:10px;
+                                 }
+                             }
+                        }//page-link
+                    }//li
+                        .second{
+                            .page-link{
+                                
+                        color: $black;
+                         padding: 10px 20px;
+                            }
+                        }
+                    .page-item:last-child{
+                         .page-link{
+                             background-color: white;
+                             color: $black;
+                             padding: 10px 20px;
+                             border: 1px solid $gray;
+                             border-radius: 0px;
+                             margin-left: 10px;
+                        }//page-link
+                    }//li
+                            
+                }//ul
+            }//nav
+        }//div
+    }//row
+            
+        }//container
+    }//cards
+}//Shop_Grid

@@ -1,0 +1,83 @@
+.porto{
+    .portooo{
+        .container{
+            .row{
+                div{
+                    ul{
+                        font-family: $fontRaleway;
+                        li{
+                            padding-right: 40px;
+                        }
+                        @media(max-width:768px){
+                            li{
+                                padding-right: 25px;
+                            }
+                        }
+                        li:hover{
+                            color: $maincolor;
+                            border-bottom: 2px solid $maincolor;
+                        }
+                    }
+                    
+                }//div
+            }//row
+            .card-columns{
+                        .card{
+                            .overLay{
+                                position: absolute;
+                                z-index: 1;
+                                text-align: center;
+                                background-color: transparent;
+                                width: 354.66px;
+                                height: 100%;
+                                i{
+                                    color: transparent;
+                                    margin-left: 20px;
+                                    font-size: 25px;
+                                }
+                            }
+                            @media(max-width:768px){
+                                .overLay{
+                                    width: 155px;
+                                }  
+                            }
+                             @media(max-width:576px){
+                                .overLay{
+                                    width: 343.66px;
+                                }  
+                            }
+                            .overLay:hover{
+                                background-color: rgba(255,255,255,0.5);
+                                i{
+                                    color: $black;
+                                }
+                            }
+                            img{
+                                position: relative;
+                            }
+
+                        }//card
+                .card-body{
+                    h5{
+                        font-family: $fontRaleway;
+                    }
+                    p{
+                        font-family:$fontLato;
+                    }
+                }
+            } 
+        .row{
+            padding-left: 0px;
+            padding-right: 0px;
+            div{
+                padding-left: 0px;
+                padding-right: 0px;
+             .btn:hover{
+                   @extend %btnHover;
+                }
+            }//div
+        }//row
+            
+        }//container
+    }//portoo
+}//porto

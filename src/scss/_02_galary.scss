@@ -1,0 +1,221 @@
+.Blog, .Blog_Single{
+    .galary{
+        .container{
+            .row{
+        div{
+        .cardImg{
+                .card{
+                    border:none;
+                .img1{
+                background-image: url(../../dist/image/blog/mid-img-1.jpg);
+                @extend %imgCover;
+                
+                }
+                .img2{
+                background-image: url(../../dist/image/blog/mid-img-4.jpg);
+                @extend %imgCover;
+                }
+                .img3{
+                background-image: url(../../dist/image/blog/mid-img-5.jpg);
+                @extend %imgCover;
+                } 
+                .img4{
+                background-image: url(../../dist/image/blog/mid-img-7.jpg);
+                @extend %imgCover;
+                }
+                .img5{
+                background-image: url(../../dist/image/blog/mid-img-9.jpg);
+                @extend %imgCover;
+                }
+                .img6{
+                background-image: url(../../dist/image/blog/mid-img-3.jpg);
+                @extend %imgCover;
+                }
+                .img7{
+                background-image: url(../../dist/image/blog/mid-img-2.jpg);
+                @extend %imgCover;
+                }
+                .img8{
+                background-image: url(../../dist/image/blog/mid-img-6.jpg);
+                @extend %imgCover;
+                }
+                .img9{
+                background-image: url(../../dist/image/blog/mid-img-8.jpg);
+                @extend %imgCover;
+                }
+                .img10{
+                background-image: url(../../dist/image/blog/mid-img-10.jpg);
+                @extend %imgCover;
+                }
+                
+                    .x{
+                display: table;
+                div{
+                        height:286.66px;
+                        display: table-cell;
+                        vertical-align: middle;
+                        background-color: rgba(255,255,255,0);
+                    i{
+                        color: transparent;
+                    }
+                 }//div
+                div:hover{
+                        background-color: rgba(255,255,255,0.8);
+                    i{
+                        color: $black;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                 }//div
+            }//x
+                    .card-body{
+                        padding: 20px 0 0 0;
+                        .card-text{
+                            font-family: $fontLato;
+                            color: $gray;
+                        }
+                        .card-title{
+                            font-family: $fontRaleway;
+                            color: $black;
+                        }
+                        .card-text{
+                            color: $gray;
+                        }
+                        hr{
+                            @extend %hrmaincolor;
+                        }//hr
+                    }//card-body
+                }//card
+            }//cardImg
+          }//div
+        .info{
+            input[type=search]{
+                width: 278px;
+                padding: 10px;
+                border: 1px solid $grayIn;
+                font-size: 15px;
+                font-family: $fontLato;
+                i{
+                    float: right;
+                }
+            }
+            h4{
+                font-family: $fontRaleway;
+            }
+            hr{
+                @extend %hrmaincolor;
+            }
+            ul{
+                li{
+                    border-left: none;
+                    border-right: none;
+                    border-radius: 0px;
+                    padding-left:  0px;
+                    color: $black;
+                    font-family: $fontLato
+                }
+                span{
+                    background-color: transparent;
+                    color: $black;
+                    font-family: $fontLato
+                }
+            }
+            p{
+                color: $gray;
+                font-family:$fontLato; 
+            }
+            .cardImg{
+                .card{
+                    .img11{
+                        background-image: url(../../dist/image/blog/small-img-1.jpg);
+                        background-size: cover;
+                        width: 100%;
+                    }
+                }
+            }
+            .hrBorer{
+                border: 1px solid $grayIn;
+                width: 100%;
+            }
+            ul{
+                .media{
+                         border-bottom: none;
+                    .media-body{
+                        font-family: $fontRaleway;
+                        h5{
+                            font-family: $fontLato;
+                            color: $gray;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .spanBt{
+                    button{
+                    border: 1px solid $grayIn;
+                    padding: 8px 15px;
+                    margin: 10px;
+                    color: $gray;
+                }
+                .btn:hover{
+               @extend %btnHover;
+            }
+            }
+            .on{
+                color: $gray;
+                font-family:$fontLato;
+                font-size: 13px;
+                border-bottom: 1px solid $grayIn;
+                padding-bottom: 5px;
+                span{
+                    color: $grayIn;
+                    
+                }
+            }
+        }//info
+        }//row
+         .row{
+                div{
+                    nav{
+                        ul{
+                        .page-item:first-child{
+                         .page-link{
+                             background-color: $maincolor;
+                             color: $black;
+                             padding: 10px 20px;
+                             border: none;
+                             border-radius: 0px;
+                             margin-right: 10px;
+                             span{
+                                 i{
+                                     margin-right:10px;
+                                 }
+                             }
+                        }//page-link
+                    }//li
+                        .second{
+                            .page-link{
+                                
+                        color: $black;
+                         padding: 10px 20px;
+                            }
+                        }
+                    .page-item:last-child{
+                         .page-link{
+                             background-color: white;
+                             color: $black;
+                             padding: 10px 20px;
+                             border: 1px solid $gray;
+                             border-radius: 0px;
+                             margin-left: 10px;
+                        }//page-link
+                    }//li
+                            
+                }//ul
+            }//nav
+        }//div
+    }//row
+            
+        }//container
+    }//galary
+}//blog

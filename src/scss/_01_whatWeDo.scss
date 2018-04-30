@@ -1,0 +1,60 @@
+.home,.About_Us {
+    .whatWeDo{
+         padding: $padding;
+    .container{
+        .row{
+            .whatDo{
+                h6{
+                    font-family: $fontKaushan;
+                    color: $black;
+                }
+                h3{
+                    font-family: $fontRaleway;
+                    color: $black;
+                }
+                hr{
+                    @extend %hr;
+                }
+                p{
+                    @extend %p; 
+                }
+            }//whatDo
+        }//row
+        .row{
+            .icon{
+                i{
+                    color: $maincolor;
+                    font-size: 25px;
+                    padding-right: 0px;
+                    padding-left: 20px;
+                }
+                @media(max-width:768px){
+                    i{
+                        padding-left: 5px;
+                    }
+                }
+            }
+            .iconData{
+                i{
+                    font-size: 100px;
+                    position: absolute;
+                    z-index: -1;
+                    opacity: 0.05;
+                }
+                @media(max-width:576px){
+                    i{
+                        font-size: 70px;
+                    }
+                }
+                h6{
+                    font-family: $fontRaleway;
+                    color: $black;
+                }
+                p{
+                    @extend %p;
+                }
+            }
+        }//row
+    }
+}
+}

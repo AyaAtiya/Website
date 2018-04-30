@@ -1,0 +1,150 @@
+.About_Us{
+    .Creative2{
+        padding: $padding;
+        position: relative;
+    .container{
+        width: 80%;
+        .row{
+            .whatDo{
+                h6{
+                    font-family: $fontKaushan;
+                }
+                h3{
+                   font-family: $fontRaleway;
+                }
+                hr{
+                    @extend %hr;
+                }
+                p{
+                    @extend %p; 
+                }
+            }//whatDo
+        }//row
+      
+    }//container
+        x{
+            border: 1px solid $gray;
+            height: 10%;
+            width: 5%;
+            position: absolute;
+            top: 354px;
+            left: 40px;
+            right: 40px;
+        }
+          a{
+            border: 1px solid $gray;
+            height: 10%;
+            width: 5%;
+            position: absolute;
+            top: 354px;
+            right: 40px;
+
+            span{
+                i{
+                    color: $black;
+                    
+                } 
+            }
+        }
+        .carousel-control-prev{
+            left:38px;
+        }
+        
+    .row{
+        div{
+            padding: 0px;
+            
+            .img1{
+                background-image: url(../../dist/image/aboutUs/team-1.jpg);
+                @extend %imgCoverAbou;
+                }
+            .img2{
+                background-image: url(../../dist/image/aboutUs/team-2.jpg);
+                @extend %imgCoverAbou;       
+                }
+            .img3{
+                background-image: url(../../dist/image/aboutUs/team-3.jpg);
+                @extend %imgCoverAbou;
+                }
+            .img4{
+                background-image: url(../../dist/image/home/img-4.jpg);
+                @extend %imgCoverAbou;
+                }
+            .x{
+                display: table;
+                div{
+                        height:286.66px;
+                        display: table-cell;
+                        vertical-align: middle;
+                        background-color: rgba(255,255,255,0);
+                    p{
+                        color: transparent;
+                    }
+                    hr{ 
+                        @extend %hr;
+                        border: transparent;
+                    }
+                    i{
+                        color: transparent;
+                    }
+                 }//div
+                div:hover{
+                        background-color: rgba(255,255,255,0.8);
+                    p{
+                       @extend %p;
+                    }
+                    hr{
+                        @extend %hr;
+                    }
+                    i{
+                        color: $black;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                 }//div
+            }//x
+                .Names{
+                    h4{
+                        font-family: $fontRaleway;
+                    }
+                    p{
+                        font-family: $fontLato;
+                    }
+                }//names
+            }//div
+        
+        @media(max-width:768px){
+                .pics{
+                    display: none;
+                }
+            }//media
+            @media(max-width:576px){
+                .pics{
+                    display: none;
+                }
+            }//media
+        
+        
+        }//row
+        .bgOrange{
+            background-color: $maincolor;
+            .icons{
+                i{
+                    font-size: 60px;
+                    position: absolute;
+                    left: 69px;
+                    z-index: 1;
+                    opacity: 0.05;
+                    color: $black; 
+                }
+                h6,h3{
+                    font-family: $fontRaleway;
+                }
+                h6{
+                    font-size: 11px;
+                    margin-bottom: 0px;
+                }
+            }
+        }//bgOrange
+    }//Creative2
+}//home
